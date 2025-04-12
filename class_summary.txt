@@ -1,0 +1,24 @@
+Class instances - Unique for each instance
+Class variables - Shared among all instances of a class
+
+Regular  methods automaticly pass the instance as the first argument (self)
+
+Class methods automaticly pass the class as the first argument (cls)
+
+Static methods do not pass any arguments. They dont return themselves
+
+--SUBCLASSING--
+
+Inheretance - A class can inherit from another class. The child class will have access to all the attributes and methods of the parent class.
+
+Method resolution order - The order in which python looks for methods in a class. It looks in the class itself, then its parents, then its grandparents, and so on.
+
+print(help(class)) - This will print out a help message for the class, including all its attributes and methods.
+
+super().__init__ - This is used to call the parent class's __init__ method from the child class's __ init__ method.
+
+Employee.__init__ - This is used to call the parent class's __init__ method from the child class's __ init__ method but from specific class. (in this case Employee)
+
+isinstance() - This is used to check if an object is an instance of a class.
+
+issubclass() - This is used to check if a class is a subclass of another class.
